@@ -1,6 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(250, 241, 234);
+    font-family: ' typewriterhand', 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+header {
+    background-color: #afedf2;
+    text-align: center;
+
+}
+
+img#logo {
+    width: 320px;
+
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    background-color: #808080;
+    padding: 10px;
+    padding-left: 20px;
+    border-top: 1px solid white;
+
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #afedf2;
+}
+
+h3 {
+    color: #dc6a5e;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #808080;
+    padding: 20px;
+    color: white;
+}
+
+footer h3 {
+    color: white;
+}
+
+/* mobile version */
+@media all and (min-width: 550px) {
+    body {
+
+    }
+
+    header {
+        background-color: #afedf2;
+        text-align: center;
+
+    }
+
+    ul {
+        background-color: #808080;
+        border-top: 1px solid white;
+    }
+
+    li {
+        display: inline-block;
+        border: none;
+    }
+
+    section#nieuws {
+        float: left;
+        width: 40%;
+
+    }
+
+    section#instrumenten {
+        width: 60%;
+        float: right;
+    }
+
+    footer {
+        clear: both;
+    }
+
+
+    h3 {
+        color: black;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+}
+
+/* tablet version */
+@media all and (min-width: 800px) {
+
+    section#nieuws {
+        float: left;
+        width: 30%;
+
+    }
+
+    section#instrumenten {
+        width: 70%;
+        float: right;
+    }
+
+    article {
+        display: inline-block;
+        width: 46%;
+        margin-right: 20px;
+    }
+
+    article:nth-child(even) {
+        margin-right: 0;
+    }
+
+
+}
+
+/* tablet version */
+@media all and (min-width: 1200px) {
 body{
-    background-color: rgb(250,241,234);
-    font-family: 'Raleway', sans-serif;
+    background-color: white;
+}
+  div#wrapper{
+      background-color: rgb(250, 241, 234);
+      width: 1200px;
+      margin: auto;
+  }
 
 
 }
