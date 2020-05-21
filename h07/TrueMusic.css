@@ -143,7 +143,7 @@ footer h3 {
 
 }
 
-/* tablet version */
+/* desktop version */
 @media all and (min-width: 1200px) {
 body{
     background-color: white;
