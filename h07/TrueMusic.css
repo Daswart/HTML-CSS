@@ -145,14 +145,14 @@ footer h3 {
 
 /* desktop version */
 @media all and (min-width: 1200px) {
-body{
-    background-color: white;
-}
-  div#wrapper{
-      background-color: rgb(250, 241, 234);
-      width: 1200px;
-      margin: auto;
-  }
+    body{
+        background-color: white;
+    }
+    div#wrapper{
+        background-color: rgb(250, 241, 234);
+        width: 1200px;
+        margin: auto;
+    }
 
 
 }
